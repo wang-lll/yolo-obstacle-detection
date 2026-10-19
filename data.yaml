@@ -1,0 +1,20 @@
+# 室内机器人障碍物检测数据集配置
+# 将 path 改为你本地数据集根目录
+path: ./datasets/indoor_obstacles
+train: images/train
+val: images/val
+
+# 12类室内常见障碍物
+names:
+  0: table
+  1: chair
+  2: sofa
+  3: stair
+  4: pedestrian
+  5: door
+  6: wall
+  7: cabinet
+  8: trash_bin
+  9: carpet
+  10: wire
+  11: obstacle_column
